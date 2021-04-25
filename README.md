@@ -2,3 +2,7 @@
  <p align="center">
   <img src="Docs/AboutThisMac.png" align=center">
  </p>
+ <p align="center">
+  <img src="Docs/PCI.png" align=center">
+ </p>
+ 
