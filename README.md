@@ -12,6 +12,7 @@
 - SSD 256GB 850 PRO Samsung SATA.
 - WiFi/Bluetooth BCM94360NG card. Works out of the box. No kexts needed. Fits into the slot under the heat sink. Original antennas work just fine.
 - dGPU MSI RX 5500 XT Gaming X 8GB. Works with Lilu.kext and WhateverGreen.kext and boot argument agdpmod=pikera.
+- Case NZXT H210i.
 
 ## BIOS
 - Press Del to enter the BIOS. Use latest available bios for this board which F5d as of this writing.
