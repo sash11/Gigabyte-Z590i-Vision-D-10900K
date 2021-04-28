@@ -10,7 +10,7 @@
  | **Component** | **Model** |
 | ------------- | --------- |
 | CPU | i9-10900K @ 5.3GHz |
-| RAM | DDR4 32GB (2x16GB) 3200MHz Ballistix White RGB |
+| RAM | DDR4 32GB (2x16GB) 3200MHz Crucial Ballistix White RGB |
 | Audio Chipset | Realtek ALC4080. Works OOB as it is connected like a USB-Audio interface |
 | dGPU | MSI RX 5500 XT Gaming X 8GB |
 | iGPU | Intel UHD Graphics 630 |
