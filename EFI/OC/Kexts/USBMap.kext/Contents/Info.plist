@@ -44,10 +44,8 @@
 				<dict>
 					<key>SS01</key>
 					<dict>
-						<key>Comment</key>
-						<string>TBU-3.0</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>9</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -55,10 +53,8 @@
 					</dict>
 					<key>SS02</key>
 					<dict>
-						<key>Comment</key>
-						<string>TBL-3.0</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>9</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -72,9 +68,9 @@
 		<key>iMac20,2-XHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
-			<string>AppleUSBMergeNub</string>
+			<string>AppleUSBHostMergeProperties</string>
 			<key>IOPathMatch</key>
 			<string>IOService:/AppleACPIPlatformExpert/PC00@0/AppleACPIPCI/XHCI@14/XHCI@14000000</string>
 			<key>IOProviderClass</key>
@@ -85,14 +81,12 @@
 				<true/>
 				<key>port-count</key>
 				<data>
-				GgAAAA==
+				GAAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
 					<key>HS01</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBC-2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -102,8 +96,6 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-04-2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -113,8 +105,6 @@
 					</dict>
 					<key>HS04</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-03-2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -124,8 +114,6 @@
 					</dict>
 					<key>HS05</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-02-2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -135,8 +123,6 @@
 					</dict>
 					<key>HS06</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-01-2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -146,8 +132,6 @@
 					</dict>
 					<key>HS07</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-06-2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -157,8 +141,6 @@
 					</dict>
 					<key>HS08</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-05-2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -168,8 +150,6 @@
 					</dict>
 					<key>HS10</key>
 					<dict>
-						<key>Comment</key>
-						<string>FrontUSBA-2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -179,8 +159,6 @@
 					</dict>
 					<key>HS11</key>
 					<dict>
-						<key>Comment</key>
-						<string>TB-USB2.0 Hub</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -190,8 +168,6 @@
 					</dict>
 					<key>HS12</key>
 					<dict>
-						<key>Comment</key>
-						<string>USB Audio</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -201,8 +177,6 @@
 					</dict>
 					<key>HS13</key>
 					<dict>
-						<key>Comment</key>
-						<string>ITE Device</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -212,8 +186,6 @@
 					</dict>
 					<key>HS14</key>
 					<dict>
-						<key>Comment</key>
-						<string>Bluetooth USB Host Controller</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -223,10 +195,8 @@
 					</dict>
 					<key>SS01</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBC-3.0</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>9</integer>
 						<key>port</key>
 						<data>
 						EQAAAA==
@@ -234,8 +204,6 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-04-3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -245,8 +213,6 @@
 					</dict>
 					<key>SS04</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-03-3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -256,8 +222,6 @@
 					</dict>
 					<key>SS05</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-02-3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -267,8 +231,6 @@
 					</dict>
 					<key>SS06</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-01-3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -278,8 +240,6 @@
 					</dict>
 					<key>SS07</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-06-3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -289,24 +249,11 @@
 					</dict>
 					<key>SS08</key>
 					<dict>
-						<key>Comment</key>
-						<string>USBA-05-3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
 						GAAAAA==
-						</data>
-					</dict>
-					<key>SS10</key>
-					<dict>
-						<key>Comment</key>
-						<string>FrontUSBA-3.0</string>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						GgAAAA==
 						</data>
 					</dict>
 				</dict>
