@@ -68,9 +68,9 @@
 		<key>iMac20,2-XHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
+			<string>AppleUSBMergeNub</string>
 			<key>IOPathMatch</key>
 			<string>IOService:/AppleACPIPlatformExpert/PC00@0/AppleACPIPCI/XHCI@14/XHCI@14000000</string>
 			<key>IOProviderClass</key>

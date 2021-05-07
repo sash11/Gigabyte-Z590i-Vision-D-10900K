@@ -309,6 +309,13 @@
 				<key>model</key>
 				<string>Intel(R) Ethernet Controller I225-V</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>layout-id</key>
+				<data>
+				BQAAAA==
+				</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -523,7 +530,7 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>USBMap.kext</string>
+				<string>USBPorts.kext</string>
 				<key>Comment</key>
 				<string>Injects custom USB port map for Z590i-VISION-D</string>
 				<key>Enabled</key>
@@ -794,9 +801,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-			<string>\EFI\ubuntu\grubx64.efi</string>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -816,7 +821,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Modern</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -903,13 +908,13 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Auxiliary</key>
-				<true/>
+				<false/>
 				<key>Comment</key>
 				<string>CleanNvram.efi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>Clean Nvram</string>
+				<string>Clean NVRAM</string>
 				<key>Path</key>
 				<string>CleanNvram.efi</string>
 				<key>RealPath</key>
@@ -1124,19 +1129,19 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string></string>
+			<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
 			<key>AudioOut</key>
 			<integer>0</integer>
 			<key>AudioSupport</key>
-			<false/>
+			<true/>
 			<key>MinimumVolume</key>
-			<integer>20</integer>
+			<integer>40</integer>
 			<key>PlayChime</key>
 			<string>Auto</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
-			<integer>0</integer>
+			<integer>500000</integer>
 			<key>VolumeAmplifier</key>
 			<integer>143</integer>
 		</dict>
@@ -1147,6 +1152,7 @@
 			<string>OpenHfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
+			<string>AudioDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
