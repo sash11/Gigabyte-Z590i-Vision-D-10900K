@@ -27,7 +27,7 @@
 - The rest of the settings can be left at their defaults. Make sure though that CFG Lock is disabled and CSM Support is disabled.
 
 ## USB issue
-Because XhciPortLimit kernel quirk no longer works on the latest Big Sur 11.3.x, we are left with 15 ports max. I have made a custom USBPorts.kext where I adjusted USB-A 3.0 ports on the back plane to be 5GB only. USB 2.0 devices will work only in one port that is marked BIOS. USB-C motherboard header works with 3.0 and 2.0 devices. Motherboard USB3.0 header works with both USB3.0 and 2.0 devices on one port only SS09/HS09 due to 15 port limitation. Plus my case has only 1 USB-A 3.0 port in the front. See pictures below for port configuration.
+Because XhciPortLimit kernel quirk no longer works on the latest Big Sur 11.3.x, we are left with 15 ports max. I have made a custom USBPorts.kext where I adjusted USB-A 3.0 ports on the back plane to be 5GB only. USB 2.0 devices will work only in one port that is marked BIOS. USB-C motherboard header works with 3.0 and 2.0 devices. Motherboard USB3.2 header has two ports, but I am using only one because my case has only one front panel USB 3.0 port. See pictures below for detailed port configuration.
  <p align="center">
   <img src="Docs/BackIO.png" align=center">
  </p>
