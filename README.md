@@ -19,6 +19,10 @@
 | OS Disk | 512GB Samsung 850 Pro SATA |
 | macOS | Big Sur 11.3.1/OpenCore 0.6.9
 
+## Installation issue
+I could not install macOS on this board the normal way. I was getting a boot loop after the second reboot during the install process.
+What I finally did was to install the macOS on an external USB SSD enclosure on anther hackintosh. After OS was fully installed, I popped the SSD into my new system and was able to boot successfully.
+
 ## BIOS
 - Press Del to enter the BIOS. Use latest available bios for this board which F5d as of this writing.
 - Enable XMP Profile1.
