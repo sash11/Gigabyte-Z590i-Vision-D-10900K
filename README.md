@@ -11,7 +11,7 @@
 | ------------- | --------- |
 | CPU | i9-10900K @ 5.3GHz |
 | RAM | DDR4 32GB (2x16GB) 3200MHz Crucial Ballistix White RGB |
-| Audio Chipset | Realtek ALC4080. Works OOB as it is connected like a USB-Audio interface |
+| Audio Chipset | Realtek ALC4080. Works OOB as it is connected as USB-Audio interface |
 | dGPU | MSI RX 5500 XT Gaming X 8GB. Works OOB with boot agrument agdpmod=pikera |
 | iGPU | Intel UHD Graphics 630 |
 | WiFi & Bluetooth | BCM94360NG Works OOB. Fits into original Intel card slot |
@@ -22,9 +22,10 @@
 ## BIOS
 - Press Del to enter the BIOS. Use latest available bios for this board which F5d as of this writing.
 - Enable XMP Profile1.
-- Disable Legacy USB.
+- Set Legacy USB to Auto.
 - Enable Internal graphics and set DVMT Pre-Allocated to 128MB, Total GFix memory to MAX.
-- The rest of the settings can be left at their defaults. Make sure though that CFG Lock is disabled and CSM Support is disabled.
+- CFG Lock is disabled and CSM Support is disabled.
+- The rest of the settings can be left at their defaults.
 
 ## Installation issue
 I could not install macOS on this board the normal way. I was getting a boot loop after the second reboot during the install process.
