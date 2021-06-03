@@ -32,7 +32,7 @@ I could not install macOS on this board the normal way. I was getting a boot loo
 What I finally did was to install the macOS on an external USB SSD enclosure on anther hackintosh. After OS was fully installed, I popped the SSD into my new system and was able to boot successfully.
 
 ## USB issue
-Because XhciPortLimit kernel quirk no longer works on the latest Big Sur 11.3.x, we are left with 15 ports max. I have made a custom USBPorts.kext where I adjusted USB-A 3.0 ports on the back plane to be 5GB only. USB 2.0 devices will work only in one port that is marked BIOS. USB-C motherboard header works with 3.0 and 2.0 devices. Motherboard USB3.2 header has two ports, but I am using only one because my case has only one front panel USB 3.0 port. See pictures below for detailed port configuration.
+Because XhciPortLimit kernel quirk no longer works on the latest Big Sur 11.3.x and above, we are left with 15 ports max. I have made a custom USBPorts.kext where I adjusted the ports in such a way, that bottom two USB ports would not work at all. Top four in a row would all work as USB 3.x, but only three of them would work as USB 2.0. See the pictures below. USB-C motherboard header works with 3.x and 2.0 devices. Motherboard USB3.2 header has two ports, but I am using only one because my case has only one front panel USB 3.0 port.
  <p align="center">
   <img src="Docs/BackIO.png" align=center">
  </p>
