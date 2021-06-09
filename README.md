@@ -17,13 +17,13 @@
 | WiFi & Bluetooth | BCM94360NG Works OOB. Fits into original Intel card slot |
 | Lan |  Intel® 2.5GbE LAN I225-V |
 | OS Disk | 512GB Samsung 850 Pro SATA |
-| macOS | Big Sur 11.4/OpenCore 0.6.9
+| macOS | Big Sur 11.4/OpenCore 0.7.0
 
 ## BIOS
 - Press Del to enter the BIOS. Use latest available bios for this board which F5d as of this writing.
 - Enable XMP Profile1.
 - Set Legacy USB to Auto.
-- Enable Internal graphics and set DVMT Pre-Allocated to 128MB, Total GFix memory to MAX.
+- Enable Internal graphics and set DVMT Pre-Allocated to 128MB, Total GFX memory to MAX.
 - CFG Lock is disabled and CSM Support is disabled.
 - The rest of the settings can be left at their defaults.
 
