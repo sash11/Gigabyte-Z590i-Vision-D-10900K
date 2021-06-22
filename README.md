@@ -18,7 +18,7 @@
 | dGPU | MSI RX 5500 XT Gaming X 8GB. Works OOB with boot agrument agdpmod=pikera |
 | iGPU | Intel UHD Graphics 630 |
 | WiFi & Bluetooth | BCM94360NG Works OOB. Fits into original Intel card slot |
-| Lan |  Intel® 2.5GbE LAN I225-V |
+| Lan |  Intel® 2.5GbE LAN I225-V. Works OOB on Big Sur 11.4 |
 | OS Disk | 512GB Samsung 850 Pro SATA |
 | macOS | Big Sur 11.4/OpenCore 0.7.0
 
