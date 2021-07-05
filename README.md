@@ -20,7 +20,7 @@
 | WiFi & Bluetooth | BCM94360NG Works OOB. Fits into original Intel card slot |
 | Lan |  Intel® 2.5GbE LAN I225-V. Works OOB on Big Sur 11.4 with boot argument dk.e1000=0 |
 | OS Disk | 512GB Samsung 850 Pro SATA |
-| macOS | Big Sur 11.4/OpenCore 0.7.0
+| macOS | Big Sur 11.4/OpenCore 0.7.1
 
 ## BIOS
 - Press Del to enter the BIOS. Use latest available bios for this board which F5d as of this writing.
