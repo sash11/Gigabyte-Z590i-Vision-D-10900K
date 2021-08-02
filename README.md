@@ -23,7 +23,7 @@
 | macOS | Big Sur 11.5.1/OpenCore 0.7.1
 
 ## BIOS
-- Press Del to enter the BIOS. Use latest available bios for this board which F5d as of this writing.
+- Press Del to enter the BIOS. Use latest available bios for this board which F5.
 - Enable XMP Profile1.
 - Set Legacy USB to Auto.
 - Enable Internal graphics and set DVMT Pre-Allocated to 128MB, Total GFX memory to MAX.
