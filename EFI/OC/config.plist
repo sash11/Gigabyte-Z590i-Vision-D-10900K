@@ -778,7 +778,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v slide=0 agdpmod=pikera dk.e1000=0</string>
+				<string>slide=0 agdpmod=pikera dk.e1000=0 shikigva=80 unfairgva=1</string>
 				<key>csr-active-config</key>
 				<data>
 				/w8AAA==
