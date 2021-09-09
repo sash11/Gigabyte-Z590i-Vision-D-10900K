@@ -8,6 +8,9 @@
   <p align="center">
   <img src="Docs/Geekbench.png" align=center">
  </p>
+  <p align="center">
+  <img src="Docs/Metal.png" align=center">
+ </p>
 
  ## Specs
  | **Component** | **Model** |
@@ -15,7 +18,7 @@
 | CPU | i9-10900K @ 5.3GHz |
 | RAM | DDR4 32GB (2x16GB) 3200MHz Crucial Ballistix White RGB |
 | Audio Chipset | Realtek ALC4080. Works OOB as it is connected as USB-Audio interface |
-| dGPU | MSI RX 5500 XT Gaming X 8GB. Works OOB with boot agrument agdpmod=pikera |
+| dGPU | ASUS ROG-STRIX-LC-RX6900XT-T16G-GAMING. Works with boot agrument agdpmod=pikera plus device-id swap and ACPI table SSDT-BRG0.aml |
 | iGPU | Intel UHD Graphics 630 |
 | WiFi & Bluetooth | BCM94360NG Works OOB. Fits into original Intel card slot |
 | Lan |  Intel® 2.5GbE LAN I225-V. Works OOB on Big Sur 11.5.2 with boot argument dk.e1000=0 |
@@ -41,4 +44,3 @@ Because XhciPortLimit kernel quirk no longer works on the latest Big Sur 11.3.x 
 
 ## Opencore
 - Fill in your own PlatformInfo. For Big Sur use iMac20,2 SMBIOS.
-
