@@ -64,6 +64,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-BRG0</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-BRG0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
@@ -145,20 +153,18 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>#shikigva</key>
-				<integer>80</integer>
-				<key>#unfairgva</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,1,0/0,0/0,0/0,0</string>
+				<key>device-id</key>
+				<data>
+				v3MAAA==
+				</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>hda-gfx</key>
 				<string>onboard-2</string>
 				<key>model</key>
-				<string>Radeon RX 5500 XT</string>
+				<string>Radeon RX 6900 XT</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
 			<dict>
@@ -500,24 +506,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>AGPMInjector.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -792,7 +780,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v slide=0 agdpmod=pikera dk.e1000=0 shikigva=80</string>
+				<string>-v slide=0 dk.e1000=0 agdpmod=pikera shikigva=80 unfairgva=1</string>
 				<key>csr-active-config</key>
 				<data>
 				/w8AAA==
