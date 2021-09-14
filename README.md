@@ -21,9 +21,8 @@
 | dGPU | ASUS ROG-STRIX-LC-RX6900XT-T16G-GAMING. Works with boot agrument agdpmod=pikera plus device-id swap and ACPI table SSDT-BRG0.aml |
 | iGPU | Intel UHD Graphics 630 |
 | WiFi & Bluetooth | BCM94360NG Works OOB. Fits into original Intel card slot |
-| Lan |  Intel® 2.5GbE LAN I225-V. Works OOB on Big Sur 11.5.2 with boot argument dk.e1000=0 |
+| Lan |  Intel® 2.5GbE LAN I225-V. Works OOB on Big Sur with boot argument dk.e1000=0 |
 | OS Disk | 512GB Samsung 850 Pro SATA |
-| macOS | Big Sur 11.5.2/OpenCore 0.7.3
 
 ## BIOS
 - Press Del to enter the BIOS. Use latest available bios for this board which F5.
