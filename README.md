@@ -33,7 +33,7 @@
 - The rest of the settings can be left at their defaults.
 
 ## USB issue
-I have made a custom USB-z590i.kext that should be used together with XhciPortLimit kernel quirk. All ports should be working, but I could not get three ports to work wit USB 2.0 devices, i.e. HS03, HS04 and HS05. They all apper in IOReg and Hackintool though.
+I have made a custom USB-z590i.kext that should be used together with XhciPortLimit kernel quirk. All ports should be working, but I could not get four ports to work wit USB 2.0 devices, i.e. HS01, HS03, HS04 and HS05. They all apper in IOReg and Hackintool though.
  <p align="center">
   <img src="Docs/IOReg.png" align=center">
  </p>
