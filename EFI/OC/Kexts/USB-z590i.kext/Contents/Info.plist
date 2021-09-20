@@ -2,24 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BuildMachineOSBuild</key>
+	<string>20G165</string>
+	<key>Bundle Get Info String</key>
+	<string>1.2, Copyright © 2000-2021 Apple Inc. All Rights Reserved.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
-	<key>CFBundleGetInfoString</key>
-	<string>1.0 Copyright © 2018-2020 Headsoft. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.Headsoft.USBPorts</string>
+	<string>com.apple.driver.usb.USB-z590i</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>USBPorts</string>
+	<string>I/O Kit Driver for USB XHCI Controllers</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>iMac20,2-XHC3</key>
@@ -29,7 +31,7 @@
 			<key>IOClass</key>
 			<string>AppleUSBMergeNub</string>
 			<key>IOPathMatch</key>
-			<string>IOService:/AppleACPIPlatformExpert/PC00@0/AppleACPIPCI/pci-bridge@1C,4/IOPP/pci-bridge@0/IOPP/pci-bridge@2/IOPP/pci8086,1138@0/AppleUSBXHCIPCI@00000000</string>
+			<string>XHC3</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
@@ -45,7 +47,7 @@
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -54,7 +56,7 @@
 					<key>SS02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -73,16 +75,12 @@
 			<string>AppleUSBMergeNub</string>
 			<key>IONameMatch</key>
 			<string>XHCI</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0x43ed8086</string>
-			<key>IOPathMatch</key>
-			<string>IOService:/AppleACPIPlatformExpert/PC00@0/AppleACPIPCI/XHCI@14/XHCI@14000000</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
+				<key>kUSBMuxEnabled</key>
+				<true/>
 				<key>port-count</key>
 				<data>
 				GgAAAA==
@@ -116,6 +114,15 @@
 						BAAAAA==
 						</data>
 					</dict>
+					<key>HS05</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						BQAAAA==
+						</data>
+					</dict>
 					<key>HS06</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -123,6 +130,24 @@
 						<key>port</key>
 						<data>
 						BgAAAA==
+						</data>
+					</dict>
+					<key>HS07</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						BwAAAA==
+						</data>
+					</dict>
+					<key>HS08</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						CAAAAA==
 						</data>
 					</dict>
 					<key>HS10</key>
@@ -137,7 +162,7 @@
 					<key>HS11</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						CwAAAA==
@@ -173,7 +198,7 @@
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						EQAAAA==
@@ -215,6 +240,24 @@
 						FgAAAA==
 						</data>
 					</dict>
+					<key>SS07</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						FwAAAA==
+						</data>
+					</dict>
+					<key>SS08</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						GAAAAA==
+						</data>
+					</dict>
 					<key>SS10</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -230,6 +273,8 @@
 			<string>iMac20,2</string>
 		</dict>
 	</dict>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.2</string>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
 </dict>

@@ -362,7 +362,7 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
+				<string>USB-z590i.kext</string>
 				<key>Comment</key>
 				<string>Injects custom USB port map for Z590i-VISION-D</string>
 				<key>Enabled</key>
@@ -583,7 +583,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
