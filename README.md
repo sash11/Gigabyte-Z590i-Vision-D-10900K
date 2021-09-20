@@ -33,7 +33,7 @@
 - The rest of the settings can be left at their defaults.
 
 ## USB issue
-Because XhciPortLimit kernel quirk no longer works on the latest Big Sur 11.3.x and above, we are left with 15 ports max. I have made a custom USBPorts.kext where I adjusted the ports in such a way, that bottom two USB ports would not work at all. Top four in a row would all work as USB 3.x, but only three of them would work as USB 2.0. See the pictures below. USB-C motherboard header works with 3.x and 2.0 devices. Motherboard USB3.2 header has two ports, but I am using only one because my case has only one front panel USB 3.0 port.
+I have made a custom USB-z590i.kext that should be used together with XhciPortLimit kernel quirk. All ports should be working, but I could not get three ports to work wit USB 2.0 devices, i.e. HS03, HS04 and HS05.
  <p align="center">
   <img src="Docs/BackIO.png" align=center">
  </p>
